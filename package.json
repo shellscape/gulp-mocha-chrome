@@ -1,0 +1,47 @@
+{
+  "name": "gulp-mocha-chrome",
+  "version": "0.1.0",
+  "description": "☕  Run Mocha tests using headless Google Chrome through Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "repository": "shellscape/gulp-mocha-chrome",
+  "author": {
+    "name": "Andrew Powell",
+    "email": "andrew@shellscape.org",
+    "url": "shellscape.org"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "file-url": "^2.0.2",
+    "gulp-util": "^3.0.7",
+    "mocha-chrome": "^0.1.1",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "eslint-config-shellscape": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^3.5.0"
+  },
+  "keywords": [
+    "gulpplugin",
+    "mocha",
+    "headless",
+    "chrome",
+    "test",
+    "testing",
+    "framework",
+    "runner",
+    "unit",
+    "spec",
+    "tdd",
+    "bdd"
+  ]
+}
